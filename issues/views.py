@@ -9,7 +9,7 @@ from django.contrib.auth.mixins import (
     LoginRequiredMixin,
     UserPassesTestMixin
 )
-from django,urls import reverse_lazy
+from django.urls import reverse_lazy
 from accounts.models import Role
 from.models import Status, Priority, Issue
 
